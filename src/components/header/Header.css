@@ -1,0 +1,43 @@
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.header .namangandan,
+.header .toshkentdan {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.header .namangandan {
+    color: green;
+    border: 1px solid green;
+    background-color: #fff;
+}
+
+.header .toshkentdan {
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 520px) {
+
+    .header .namangandan,
+    .header .toshkentdan {
+        font-size: 15px;
+        text-align: center;
+    }
+}
