@@ -8,12 +8,12 @@ import Toshkent from './components/toshkentdan/Toshkent';
 function App() {
   return (
     <div className="App">
-      
+
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/admins' element={<Admins />} />
-        <Route path='/namangandan' element={<Namangan/>}/>
-        <Route path='/toshkentdan' element={<Toshkent/>}/>
+        <Route path='/namangandan' element={<Namangan />} />
+        <Route path='/toshkentdan' element={<Toshkent />} />
       </Routes>
     </div>
   );

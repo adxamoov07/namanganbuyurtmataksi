@@ -10,7 +10,6 @@ function Header() {
       <div className='header'>
           <Link className='namangandan' to={'/namangandan'}>NAMANGANDAN TOSHKENTGA</Link>
           <Link className='toshkentdan' to={'/toshkentdan'}>TOSHKENTDAN NAMANGANGA</Link>
-
       </div>
     </div>
   )
