@@ -8,6 +8,8 @@
     position: fixed;
     bottom: 0;
     left: 0;
+    z-index: 100000;
+    background-color: #f6f6f6;
 }
 
 .header .namangandan,
@@ -17,21 +19,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
+    background-color: #ffffff52;
 }
 
-.header .namangandan {
-    color: green;
-    border: 1px solid green;
-    background-color: #fff;
+.namangandan_link,
+.toshkentdan_link{
+    width: 80%;
+    height: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f6f6f6;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+
 }
 
-.header .toshkentdan {
-    color: dodgerblue;
-    border: 1px solid dodgerblue;
-    background-color: #fff;
-}
+
 
 @media screen and (max-width: 520px) {
 

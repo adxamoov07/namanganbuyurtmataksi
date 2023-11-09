@@ -7,6 +7,13 @@
 }
 
 .headerTop>h3{
-    color: #444;
+    color: orange;
     font-family: 'Courier New', Courier, monospace;
+}
+
+
+@media screen and (max-width: 600px) {
+    .headerTop{
+        height: 30px;
+    }
 }

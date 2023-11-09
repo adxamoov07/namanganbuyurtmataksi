@@ -8,8 +8,12 @@ function Header() {
     <div>
       <HeaderTop />
       <div className='header'>
-          <Link className='namangandan' to={'/namangandan'}>NAMANGANDAN TOSHKENTGA</Link>
-          <Link className='toshkentdan' to={'/toshkentdan'}>TOSHKENTDAN NAMANGANGA</Link>
+        <div className="namangandan">
+          <Link className='namangandan_link' to={'/namangandan'}>NAMANGANDAN TOSHKENTGA</Link>
+        </div>
+        <div className="toshkentdan">
+          <Link className='toshkentdan_link' to={'/toshkentdan'}>TOSHKENTDAN NAMANGANGA</Link>
+        </div>
       </div>
     </div>
   )
